@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+ <configuration>
+   <!-- 设置别名，这种配置默认使用包下面的JavaBean的名字作为别名(首字母小写) -->
+   <typeAliases>
+       <package name="cn.ssm.domain"/>
+   </typeAliases>
+ </configuration>
