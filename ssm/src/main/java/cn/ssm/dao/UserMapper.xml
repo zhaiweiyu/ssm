@@ -4,6 +4,6 @@
 <mapper namespace="cn.ssm.dao.UserDao">
 
 		<select id="findByUserName" parameterType="string" resultType="User">
-			select * from public.user where name = #{userName}
+			select name, address, sex, password as passWord, id from public.user where name = #{userName}
 		</select>
 </mapper>

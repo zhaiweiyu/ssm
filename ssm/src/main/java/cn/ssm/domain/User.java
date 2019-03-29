@@ -8,6 +8,19 @@ public class User {
 	private String address;
 	private String passWord;
 	
+	
+	
+	public User() {
+		super();
+	}
+	public User(int id, int sex, String name, String address, String passWord) {
+		super();
+		this.id = id;
+		this.sex = sex;
+		this.name = name;
+		this.address = address;
+		this.passWord = passWord;
+	}
 	public String getPassWord() {
 		return passWord;
 	}
